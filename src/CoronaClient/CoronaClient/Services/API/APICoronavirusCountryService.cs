@@ -16,7 +16,7 @@ namespace CoronaClient.Services.API
             using (HttpClient client = new HttpClient())
             {
                 HttpResponseMessage apiResponse = await client.GetAsync(REQUEST_URI);
-            
+
                 string jsonResponce = await apiResponse.Content.ReadAsStringAsync();
 
                 var jsonSerializeOptions = new JsonSerializerOptions()

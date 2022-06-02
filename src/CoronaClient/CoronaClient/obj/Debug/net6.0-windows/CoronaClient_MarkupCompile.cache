@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\525.khokhlovns\source\repos\CoronaClient\CoronaClient\obj\Debug\net6.0-windows\
+C:\Users\525.khokhlovns\source\repos\MVVM-Corona\src\CoronaClient\CoronaClient\obj\Debug\net6.0-windows\
 CoronaClient
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\525.khokhlovns\source\repos\CoronaClient\CoronaClient\App.xaml
-11407045341
+C:\Users\525.khokhlovns\source\repos\MVVM-Corona\src\CoronaClient\CoronaClient\App.xaml
+2-75908334
 
-82069276786
-1941142463650
-MainWindow.xaml;
+11-183595723
+1961698538278
+MainWindow.xaml;Views\CoronavirusCountriesChartView.xaml;
 
 False
 

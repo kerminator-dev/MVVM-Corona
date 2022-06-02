@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\525.khokhlovns\source\repos\MVVM-Corona\src\CoronaClient\CoronaClient\App.xaml
-11407045341
+2-75908334
 
-102084065381
-1941142463650
-MainWindow.xaml;
+13-168807128
+1961698538278
+MainWindow.xaml;Views\CoronavirusCountriesChartView.xaml;
 
-False
+True
 

@@ -1,10 +1,4 @@
-﻿using CoronaClient.Services.API;
-using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using CoronaClient.ViewModels;
 using System.Windows;
 
 namespace CoronaClient
@@ -14,11 +8,14 @@ namespace CoronaClient
     /// </summary>
     public partial class App : Application
     {
-        protected override async void OnStartup(StartupEventArgs e)
+        protected override void OnStartup(StartupEventArgs e)
         {
-            var apiService = new APICoronavirusCountryService();
+            MainWindow mainWindow = new MainWindow()
+            {
+                DataContext = new MainViewModel()
+            };
 
-            var result = await apiService.GetTopCases(10);
+            mainWindow.Show();
 
             base.OnStartup(e);
         }
